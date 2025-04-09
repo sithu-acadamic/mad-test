@@ -53,6 +53,11 @@
                         class="fa fa-pen"></i><span>Blog</span></a>
             </li>
 
+            <li class="mb-3">
+                <a href="{{ route('admin.user.index') }}"><i
+                        class="fa fa-user"></i><span>Users</span></a>
+            </li>
+
             {{--<li class="mb-3">
                 <a href="javascript: void(0);"><i
                             class="fa fa-ship"></i><span>Sea Export</span><span class="menu-arrow"><i

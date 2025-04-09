@@ -70,7 +70,7 @@
                     <tbody id="imageTableBody">
                     @foreach($sections as $section)
                         <tr>
-                            <td>{{ $section->section_code }}</td>
+                            <td>{{ $section->title }}</td>
                             <td>
                                 @if($section->image)
                                     <img src="{{ asset('storage/'.$section->image) }}" class="img-thumbnail" style="max-width: 80px;">
@@ -146,7 +146,7 @@
                             <select class="form-select" id="sectionSelect">
                                 <option value="">Choose Section</option>
                                 @foreach($sections as $section)
-                                    <option value="{{ $section->section_code }}">{{ $section->section_code }}</option>
+                                    <option value="{{ $section->section_code }}">{{ $section->title }}</option>
                                 @endforeach
                             </select>
                         </div>
@@ -263,7 +263,8 @@
             // View full image
             $(document).on('click', '.view-image', function () {
                 let imageSrc = $(this).data('image');
-                $('#fullImage').attr('src', imageSrc);
+                let imagePath = imageSrc.split('/uploads/')[1]; // Get just the filename part
+                $('#fullImage').attr('src', '/storage/uploads/'+ imagePath);
             });
         });
     </script>

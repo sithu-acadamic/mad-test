@@ -8,7 +8,7 @@ use App\Http\Controllers\Settings\PartnershipLogoController;
 use App\Http\Controllers\Service\OurServiceController;
 use App\Http\Controllers\Team\TeamController;
 use App\Http\Controllers\Blog\BlogController;
-
+use App\Http\Controllers\Admin\AdminController;
 // Inquiries
 Route::get('/inquiries/inbox', [InquiriesController::class, 'index'])->name('inquiries.inbox');
 Route::get('/inquiries/details', [InquiriesController::class, 'inquiryDetails'])->name('inquiries.details');
@@ -63,6 +63,11 @@ Route::post('/blogs/update/{blog}', [BlogController::class, 'update'])->name('bl
 Route::delete('/blogs/delete/{blog}', [BlogController::class, 'destroy'])->name('blogs.destroy');
 Route::post('/blogs/toggle-status/{blog}', [BlogController::class, 'toggleStatus'])->name('blogs.toggle-status');
 
+
+Route::get('/user', [AdminController::class, 'index'])->name('user.index');
+Route::post('/user/store', [AdminController::class, 'store'])->name('user.store');
+Route::post('/user/update/{id}', [AdminController::class, 'update'])->name('user.update');
+Route::delete('/user/delete/{id}', [AdminController::class, 'destroy'])->name('user.destroy');
 
 
 
