@@ -1,0 +1,75 @@
+
+.left-sidenav-menu{
+    text-transform: uppercase;
+}
+
+.custom-user-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.demo-logo-50{
+    width: 50%;
+}
+.modal-header_sm{
+    background-color: #1c2d41;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #eaf0f9;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+    height: 10px;
+}
+.modal-title{
+    color: #fff !important;
+    align-self: center;
+    font-weight: 500;
+    margin-top: 0;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+}
+.add-new-tier{
+    cursor: pointer;
+}
+.custom-error-msg{
+    color: #f5325c !important
+}
+.error-border{
+    border-color: #f5325c !important
+}
+.tierEdit{
+    cursor: pointer;
+}
+.tier-input{
+    text-transform: uppercase;
+}
+.custom-background-gray{
+    background-color: rgb(251, 251, 251) !important;
+}
+
+.table-span {
+    background-color: rgba(3, 216, 127, 0.15);
+}
+.custom-footer {
+    border-top: 1px solid #e3ebf6;
+    bottom: 0;
+    padding: 16px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: white !important;
+}
+
+/* Additional CSS to reduce the gap */
+.rate-company-logo {
+    padding: 0; /* Remove padding around the logo */
+    display: flex;
+}
+
+.rate-company-name {
+    margin-top: 0; /* Remove top margin for the company name */
+    display: flex;
+    align-items: center;
+}

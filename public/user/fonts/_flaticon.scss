@@ -1,0 +1,220 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 15/10/2019 11:05
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.woff2") format("woff2"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-shovel:before { content: "\f100"; }
+.flaticon-pick-mattock:before { content: "\f101"; }
+.flaticon-phone-call:before { content: "\f102"; }
+.flaticon-placeholder:before { content: "\f103"; }
+.flaticon-envelope:before { content: "\f104"; }
+.flaticon-agronomy:before { content: "\f105"; }
+.flaticon-harvest:before { content: "\f106"; }
+.flaticon-cotton:before { content: "\f107"; }
+.flaticon-farmer:before { content: "\f108"; }
+.flaticon-marijuana-plantation:before { content: "\f109"; }
+.flaticon-agriculture:before { content: "\f10a"; }
+.flaticon-trees:before { content: "\f10b"; }
+.flaticon-grain:before { content: "\f10c"; }
+.flaticon-tractor:before { content: "\f10d"; }
+.flaticon-engineer:before { content: "\f10e"; }
+.flaticon-transgenic:before { content: "\f10f"; }
+.flaticon-tractor-1:before { content: "\f110"; }
+.flaticon-agriculture-1:before { content: "\f111"; }
+.flaticon-drone:before { content: "\f112"; }
+.flaticon-farmer-1:before { content: "\f113"; }
+.flaticon-agronomy-1:before { content: "\f114"; }
+.flaticon-agriculture-2:before { content: "\f115"; }
+.flaticon-agriculture-3:before { content: "\f116"; }
+.flaticon-tractor-2:before { content: "\f117"; }
+.flaticon-agriculture-4:before { content: "\f118"; }
+.flaticon-agriculture-5:before { content: "\f119"; }
+.flaticon-cotton-1:before { content: "\f11a"; }
+.flaticon-agriculture-6:before { content: "\f11b"; }
+.flaticon-farm:before { content: "\f11c"; }
+.flaticon-field:before { content: "\f11d"; }
+.flaticon-tractor-3:before { content: "\f11e"; }
+.flaticon-drone-1:before { content: "\f11f"; }
+.flaticon-gmo:before { content: "\f120"; }
+.flaticon-plant:before { content: "\f121"; }
+.flaticon-tractor-4:before { content: "\f122"; }
+.flaticon-drone-2:before { content: "\f123"; }
+.flaticon-drone-3:before { content: "\f124"; }
+.flaticon-mill:before { content: "\f125"; }
+.flaticon-area:before { content: "\f126"; }
+.flaticon-field-1:before { content: "\f127"; }
+.flaticon-gmo-1:before { content: "\f128"; }
+.flaticon-scarecrow:before { content: "\f129"; }
+.flaticon-gardening-tools:before { content: "\f12a"; }
+.flaticon-shovel-1:before { content: "\f12b"; }
+.flaticon-shovel-2:before { content: "\f12c"; }
+.flaticon-plant-1:before { content: "\f12d"; }
+.flaticon-sprout:before { content: "\f12e"; }
+.flaticon-garden:before { content: "\f12f"; }
+.flaticon-shovel-3:before { content: "\f130"; }
+.flaticon-field-2:before { content: "\f131"; }
+.flaticon-rooster:before { content: "\f132"; }
+.flaticon-farm-1:before { content: "\f133"; }
+.flaticon-buffalo:before { content: "\f134"; }
+.flaticon-cow:before { content: "\f135"; }
+.flaticon-cow-1:before { content: "\f136"; }
+.flaticon-biomass:before { content: "\f137"; }
+.flaticon-cow-2:before { content: "\f138"; }
+.flaticon-cow-3:before { content: "\f139"; }
+.flaticon-hen:before { content: "\f13a"; }
+.flaticon-egg:before { content: "\f13b"; }
+.flaticon-farmer-2:before { content: "\f13c"; }
+.flaticon-fish:before { content: "\f13d"; }
+.flaticon-animal:before { content: "\f13e"; }
+.flaticon-prawn:before { content: "\f13f"; }
+.flaticon-prawn-1:before { content: "\f140"; }
+.flaticon-dairy-products:before { content: "\f141"; }
+.flaticon-pig:before { content: "\f142"; }
+.flaticon-watering:before { content: "\f143"; }
+.flaticon-professions-and-jobs:before { content: "\f144"; }
+.flaticon-phone-call-1:before { content: "\f145"; }
+.flaticon-like:before { content: "\f146"; }
+.flaticon-speech-bubble:before { content: "\f147"; }
+.flaticon-farmer-3:before { content: "\f148"; }
+.flaticon-windmill:before { content: "\f149"; }
+.flaticon-tomato:before { content: "\f14a"; }
+.flaticon-stall:before { content: "\f14b"; }
+.flaticon-fence:before { content: "\f14c"; }
+.flaticon-planting:before { content: "\f14d"; }
+.flaticon-sprinkler:before { content: "\f14e"; }
+.flaticon-clock:before { content: "\f14f"; }
+.flaticon-support:before { content: "\f150"; }
+.flaticon-quotation:before { content: "\f151"; }
+.flaticon-planet-earth:before { content: "\f152"; }
+.flaticon-email:before { content: "\f153"; }
+.flaticon-worldwide:before { content: "\f154"; }
+.flaticon-call:before { content: "\f155"; }
+.flaticon-house:before { content: "\f156"; }
+.flaticon-play-button:before { content: "\f157"; }
+.flaticon-play-button-1:before { content: "\f158"; }
+.flaticon-play-button-2:before { content: "\f159"; }
+
+    $font-Flaticon-shovel: "\f100";
+    $font-Flaticon-pick-mattock: "\f101";
+    $font-Flaticon-phone-call: "\f102";
+    $font-Flaticon-placeholder: "\f103";
+    $font-Flaticon-envelope: "\f104";
+    $font-Flaticon-agronomy: "\f105";
+    $font-Flaticon-harvest: "\f106";
+    $font-Flaticon-cotton: "\f107";
+    $font-Flaticon-farmer: "\f108";
+    $font-Flaticon-marijuana-plantation: "\f109";
+    $font-Flaticon-agriculture: "\f10a";
+    $font-Flaticon-trees: "\f10b";
+    $font-Flaticon-grain: "\f10c";
+    $font-Flaticon-tractor: "\f10d";
+    $font-Flaticon-engineer: "\f10e";
+    $font-Flaticon-transgenic: "\f10f";
+    $font-Flaticon-tractor-1: "\f110";
+    $font-Flaticon-agriculture-1: "\f111";
+    $font-Flaticon-drone: "\f112";
+    $font-Flaticon-farmer-1: "\f113";
+    $font-Flaticon-agronomy-1: "\f114";
+    $font-Flaticon-agriculture-2: "\f115";
+    $font-Flaticon-agriculture-3: "\f116";
+    $font-Flaticon-tractor-2: "\f117";
+    $font-Flaticon-agriculture-4: "\f118";
+    $font-Flaticon-agriculture-5: "\f119";
+    $font-Flaticon-cotton-1: "\f11a";
+    $font-Flaticon-agriculture-6: "\f11b";
+    $font-Flaticon-farm: "\f11c";
+    $font-Flaticon-field: "\f11d";
+    $font-Flaticon-tractor-3: "\f11e";
+    $font-Flaticon-drone-1: "\f11f";
+    $font-Flaticon-gmo: "\f120";
+    $font-Flaticon-plant: "\f121";
+    $font-Flaticon-tractor-4: "\f122";
+    $font-Flaticon-drone-2: "\f123";
+    $font-Flaticon-drone-3: "\f124";
+    $font-Flaticon-mill: "\f125";
+    $font-Flaticon-area: "\f126";
+    $font-Flaticon-field-1: "\f127";
+    $font-Flaticon-gmo-1: "\f128";
+    $font-Flaticon-scarecrow: "\f129";
+    $font-Flaticon-gardening-tools: "\f12a";
+    $font-Flaticon-shovel-1: "\f12b";
+    $font-Flaticon-shovel-2: "\f12c";
+    $font-Flaticon-plant-1: "\f12d";
+    $font-Flaticon-sprout: "\f12e";
+    $font-Flaticon-garden: "\f12f";
+    $font-Flaticon-shovel-3: "\f130";
+    $font-Flaticon-field-2: "\f131";
+    $font-Flaticon-rooster: "\f132";
+    $font-Flaticon-farm-1: "\f133";
+    $font-Flaticon-buffalo: "\f134";
+    $font-Flaticon-cow: "\f135";
+    $font-Flaticon-cow-1: "\f136";
+    $font-Flaticon-biomass: "\f137";
+    $font-Flaticon-cow-2: "\f138";
+    $font-Flaticon-cow-3: "\f139";
+    $font-Flaticon-hen: "\f13a";
+    $font-Flaticon-egg: "\f13b";
+    $font-Flaticon-farmer-2: "\f13c";
+    $font-Flaticon-fish: "\f13d";
+    $font-Flaticon-animal: "\f13e";
+    $font-Flaticon-prawn: "\f13f";
+    $font-Flaticon-prawn-1: "\f140";
+    $font-Flaticon-dairy-products: "\f141";
+    $font-Flaticon-pig: "\f142";
+    $font-Flaticon-watering: "\f143";
+    $font-Flaticon-professions-and-jobs: "\f144";
+    $font-Flaticon-phone-call-1: "\f145";
+    $font-Flaticon-like: "\f146";
+    $font-Flaticon-speech-bubble: "\f147";
+    $font-Flaticon-farmer-3: "\f148";
+    $font-Flaticon-windmill: "\f149";
+    $font-Flaticon-tomato: "\f14a";
+    $font-Flaticon-stall: "\f14b";
+    $font-Flaticon-fence: "\f14c";
+    $font-Flaticon-planting: "\f14d";
+    $font-Flaticon-sprinkler: "\f14e";
+    $font-Flaticon-clock: "\f14f";
+    $font-Flaticon-support: "\f150";
+    $font-Flaticon-quotation: "\f151";
+    $font-Flaticon-planet-earth: "\f152";
+    $font-Flaticon-email: "\f153";
+    $font-Flaticon-worldwide: "\f154";
+    $font-Flaticon-call: "\f155";
+    $font-Flaticon-house: "\f156";
+    $font-Flaticon-play-button: "\f157";
+    $font-Flaticon-play-button-1: "\f158";
+    $font-Flaticon-play-button-2: "\f159";

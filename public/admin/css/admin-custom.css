@@ -1,0 +1,67 @@
+
+.nav-text-size{
+    font-size: 11px !important;
+}
+
+.label-text-size{
+    font-size: 11px !important;
+}
+.dashboard-table-text-size{
+    font-size: 11px !important;
+}
+
+.table-text-size{
+    font-size: 11px !important;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 2px 5px !important;
+}
+
+.select2-container-change {
+    display: block!important;
+    height: 6px!important;
+    white-space: nowrap!important;
+    line-height: 6px!important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-size: 10px;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #e3ebf6;
+    height: 27px !important;
+    background-color: #ffffff;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #303e67;
+    line-height: 28px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    position: absolute;
+    top: -4px !important;
+    width: 20px;
+}
+.input-group-sm{
+    height: 12px !important;
+}
+.select2-container .select2-selection--multiple{
+    min-height: auto !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    font-size: 10px;
+    margin-top: 5px !important;
+    margin-right:1px !important;
+    padding: 2px !important;
+}
+
+.select2-container .select2-selection--multiple {
+    height: 27px !important;
+    overflow-y: scroll !important;
+    max-height: none !important;
+    scrollbar-width: thin;
+    scrollbar-color: #cccccc #f5f5f5;
+}
+

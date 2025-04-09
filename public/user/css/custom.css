@@ -1,0 +1,18 @@
+.cust-bg-1{
+    background-color: gainsboro !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left bottom;
+}
+.cust-bg-img2{
+    background-image: url('../images/example/home6.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cust-bg-img3{
+    background-image:url('../images/example/home7.jpeg') !important;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

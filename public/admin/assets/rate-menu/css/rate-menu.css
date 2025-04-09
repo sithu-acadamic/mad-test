@@ -1,0 +1,375 @@
+.gradient-section {
+    background: linear-gradient(#f5f5f5a6, #ffffff24);
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    min-height:100vh;
+
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0C263F;
+    margin-bottom: 0;
+}
+
+.main-div {
+    width: 95%;
+}
+
+.rate-filter-div {
+    color: #c9cfdb;
+    position: relative;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 15px 30px rgba(58, 112, 191, .15);
+    z-index: 1;
+    padding: 2px;
+}
+
+.form-section {
+    content: "wrapper";
+    display: flex;
+    padding: 4px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+
+.location-svg {
+    position: absolute;
+    top: 51%;
+    transform: translateY(-50%);
+    left: 10px;
+    fill: #C9CFDB;
+    width: 25px;
+    z-index: 4;
+}
+
+
+.main-cont {
+    display: flex;
+}
+
+.custom-grp {
+    height: 50px;
+    border-radius: 3px;
+}
+
+.custom-grp .custom-input {
+
+    border-radius: 0;
+}
+
+.custom-grp {
+    position: relative;
+}
+
+.rate-date {
+    padding-left: 45px;
+}
+
+.rate-details-card{
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(105,126,157,.1);
+    margin-bottom: 20px;
+}
+.logo-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 18px !important;
+}
+.rate-card-s1{
+    border-right: 1px solid #e6e6e6;
+}
+.rate-card-s1 div{
+    max-height: 84px;
+}
+.rate-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.rate-info-2{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.animated-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.carrier-name-filter{
+    color: #5a5b5b;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.filter-hr{
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    color: #dddfe2;
+    border-color: rgba(221, 223, 226, 0.5);
+    margin-bottom: 17px;
+    margin-top: 35px;
+    border-radius: 20px;
+}
+.range-value{
+    background-color: lightblue;
+    padding: 4px;
+    border-radius: 6px;
+}
+.custom-input-sm{
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e3ebf6;
+    text-align: center;
+}
+
+.custom-range::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, #007BFF, #00C2FF);
+    border: none;
+}
+
+.custom-range::-moz-range-track {
+    background: linear-gradient(to right, #007BFF, #00C2FF);
+    border: none;
+}
+
+.custom-range::-ms-track {
+    background: linear-gradient(to right, #007BFF, #00C2FF);
+    border: none;
+}
+
+.custom-range::-webkit-slider-thumb {
+    background-color: #007BFF;
+    border: none;
+}
+
+.custom-range::-moz-range-thumb {
+    background-color: #007BFF;
+    border: none;
+}
+
+.custom-range::-ms-thumb {
+    background-color: #007BFF;
+    border: none;
+}
+.img-section{
+    height: 41px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 4px;
+}
+.timeline {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.dot {
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 2px solid #007bff;
+}
+
+.line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #ccc;
+}
+.dot-lable{
+    color: #15354e;
+    font-weight: 500;
+    font-size: 14px;
+}
+.ship-label{
+    color:#007bff;
+}
+.custom-collapse{
+    color: #fff;
+    background-color: #b3b3b3;
+    border-color: #1761fd;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    padding: 10px;
+    cursor: pointer;
+}
+.custom-collapse-tot{
+    color: #fff;
+    background-color: #b3b3b3;
+    border-color: #1761fd;
+    padding: 10px;
+    cursor: pointer;
+}
+.custom-cd-body{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.section-info{
+    display: flex;
+    justify-items: self-end;
+    justify-content: space-between;
+}
+.section-rate{
+    white-space: nowrap
+}
+.terms-and-cond-header{
+    font-weight: bold;
+    text-align: justify;
+}
+.terms-and-cond-footer{
+    font-weight: bold;
+    text-align: justify;
+}
+.turms-and-cond-body{
+    text-align: justify;
+}
+.custom-rate-card{
+    background-color: #fff;
+    border-radius: 17px;
+    box-shadow: 0 0 20px rgba(105,126,157,.1);
+    margin-bottom: 20px;
+}
+.rate-country{
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.rate-body-text{
+    font-size: 16px;
+}
+.usdt-rate-title{
+    color: #919191;
+    font-weight: bold;
+}
+.rate-sub-tot{
+    margin-right: 25px;
+}
+.rate-total{
+    margin-right: 16px;
+}
+.header-rate{
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: none;
+    color: #0c263f;
+}
+
+.shipment-type-prompt{
+    content: "shipping";
+    position: absolute;
+    top: 110%;
+    right: 0;
+    min-width: 360px;
+    padding: 24px 16px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(58,112,191,.15);
+    z-index: 2;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+.shp-label{
+    content: "title";
+    display: block;
+    margin-bottom: 8px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    color: rgb(0, 12, 55);
+    text-align: left;
+    margin-top: 8px;
+}
+.book-now-btn{
+    color: #12a4ed;
+    border-color: #12a4ed;
+    width: 160px;
+    height: 40px;
+}
+
+.custom-bk-btn{
+    width: 100px;
+    height: 39px;
+}
+
+.custom-sort-radio{
+    width: 14px;
+    height: 14px;
+}
+.radio-lable{
+    font-size: 14px;
+}
+.sort-icon{
+    color: #007bff;
+}
+.error{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+.table-span {
+    background-color: rgba(3, 216, 127, 0.08) !important;
+    color: #03d87f !important;
+
+}
+.custom-logo{
+    min-height: 28px;
+    border: none !important;
+    padding: 14px !important;
+}
+.rate-date-section{
+    margin-top: 14px;
+}
+.rate-total-main-span{
+    padding: 9px !important;
+    width: 100% !important;
+    font-size: 21px !important;
+    font-weight: bold !important;
+}
+.view_details{
+    text-transform: uppercase;
+    font-size: 10px !important;
+}
+#rate_table i {
+    margin-right: 5px;
+}
+.table-span td{
+    text-align: start;
+    font-weight: bold;
+    text-transform: uppercase
+}
+.rate-table-tot{
+    text-align: end;
+    font-weight: bold
+}
+.rate-table-tot span{
+    white-space: nowrap;
+    padding: 5px;
+}
+.book-now{
+    margin-left: 16px !important;
+}
+.carousel-section-body{
+    justify-content: space-between !important;
+}
+.package-details{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 200px;
+}
